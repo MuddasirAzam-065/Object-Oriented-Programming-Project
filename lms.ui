@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>lms</class>
+ <widget class="QMainWindow" name="lms">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>711</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::ContextMenuPolicy::DefaultContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Bahria LMS</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/logo/1.png</normaloff>:/logo/1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #EEF2FF,   /* Very light blue */
+        stop:1 #E0E7FF    /* Soft educational purple */
+    );
+    font-family: Segoe UI, Roboto, Arial;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout">
+    <item row="0" column="0" colspan="2">
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+    background-color: #1E3A8A;   /* Deep academic blue */
+    color: white;
+	font-weight: bold;
+    padding: 25px;
+    font-size: 60px;
+    border-radius: 6px;
+    text-align: center;
+}</string>
+      </property>
+      <property name="text">
+       <string>Bahria University</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="student">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #7A8F77;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 60px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+      </property>
+      <property name="text">
+       <string>Student</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="faculity">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+     background-color: #0097A7;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 60px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+color:black
+}</string>
+      </property>
+      <property name="text">
+       <string>Faculity</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0" colspan="2">
+     <widget class="QPushButton" name="admin">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+   background-color: #0A66A3;
+    padding: 6px 14px;
+    font-size: 60px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+ 	color: white;
+	font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+color:black
+}</string>
+      </property>
+      <property name="text">
+       <string>Admin</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>711</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

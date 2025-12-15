@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>removet</class>
+ <widget class="QDialog" name="removet">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>169</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Remove Teacher</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/logo/1.png</normaloff>:/logo/1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #EEF2FF,   /* Very light blue */
+        stop:1 #E0E7FF    /* Soft educational purple */
+    );
+    font-family: Segoe UI, Roboto, Arial;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>90</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>ID/Enroll :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Name :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>CNIC :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ID">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>50</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fetch">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>130</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+   </property>
+   <property name="text">
+    <string>Fetch Details</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cut">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>130</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+   </property>
+   <property name="text">
+    <string>Remove</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cnic">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>10</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

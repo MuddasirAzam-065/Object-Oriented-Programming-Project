@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sudentdetails</class>
+ <widget class="QDialog" name="sudentdetails">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Add Student</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/logo/1.png</normaloff>:/logo/1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #EEF2FF,   /* Very light blue */
+        stop:1 #E0E7FF    /* Soft educational purple */
+    );
+    font-family: Segoe UI, Roboto, Arial;
+}</string>
+  </property>
+  <widget class="QPushButton" name="addstudent">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>430</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+   </property>
+   <property name="text">
+    <string>Add Student</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="name_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Name :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="fathername_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Father Name :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="fathername">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="postal">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>220</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="contact">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>140</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="contact_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Contact:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="postal_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>151</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Postal Addr :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="parmanent">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>260</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="year_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Enroll Year :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="parmanent_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Permanent Addr :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="year">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>340</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="degree">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>300</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="degree_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Degree : </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="cnic">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>100</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cnic_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>CNIC :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="email_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>180</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Email :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="email">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>180</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="year_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>390</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: black;
+	font-weight: bold;
+    font-size: 20px;
+    border-radius: 6px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Batch :</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="spring">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>400</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Spring</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="spring_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>400</y>
+     <width>89</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Fall</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

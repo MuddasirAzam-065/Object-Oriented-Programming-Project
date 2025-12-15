@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>teacher</class>
+ <widget class="QMainWindow" name="teacher">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>630</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Teacher Panel</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/logo/1.png</normaloff>:/logo/1.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #EEF2FF,   /* Very light blue */
+        stop:1 #E0E7FF    /* Soft educational purple */
+    );
+    font-family: Segoe UI, Roboto, Arial;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="viewdetails">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>View Teachers                   </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="viewstudents">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>View Students                   </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="attendence">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Mark Attendence              </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="grades">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Mark Grades                      </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="assignment">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Assignment                       </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="viewassignments">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>View Assignments            </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Assign Teacher a Course  </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>View All Courses               </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Add a Course                     </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Remove Course                 </string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_11">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: blue;
+     color: white;
+	font-weight: bold;
+    padding: 6px 14px;
+    font-size: 15px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+QPushButton:hover {
+    background-color: #E5E5E5;
+	color:black
+}
+
+QPushButton:pressed {
+    background-color: #D4D4D4;
+	color:black
+}</string>
+         </property>
+         <property name="text">
+          <string>Update Teacher of Course</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QTableView" name="tableView"/>
+    </item>
+    <item row="0" column="0" colspan="2">
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0" colspan="2">
+       <widget class="QLabel" name="panel">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+    background-color: #1E3A8A;   /* Deep academic blue */
+    color: white;
+	font-weight: bold;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    text-align: center;
+}</string>
+        </property>
+        <property name="text">
+         <string>Teacher Panel</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="logout">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="contextMenuPolicy">
+         <enum>Qt::ContextMenuPolicy::NoContextMenu</enum>
+        </property>
+        <property name="text">
+         <string>Logout</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
