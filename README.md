@@ -47,11 +47,24 @@ The project focuses on building a system using **classes and objects** while app
 
 ### Clone the Repository
 
-git clone https://github.com/MuddasirAzam-065/Object-Oriented-Programming-Project.git
+git clone https://github.com/MuddasirAzam-065/Object-Oriented-Programming-Project.git.
+
 Note: You would have to require a qt frame work in order to run and see implementation of code.
 
-# 📸 GUI of the Porject
+The default username and passowrd for admin is [admin:admin]
 
+Where as this project runs on your local machine creating a .csv file for each operation, and accessing when required.
+
+The passwrod of teacher and student, is set after the admin adds them. As it runs on a local machine so at first their is no teacehr or student.
+
+---
+# 🖥️Bugs and Enhancement:
+✔ First of all the program runs on a local machine which limits the data only to a single machine gnerally admin.  
+✔ It can be integrated to a live databsae such as firebase or mongodb so it can be used within all members of college 
+✔ API such as Twilio Verify or Plivo Verify can be used to send otp to reset password.  
+---
+
+# 📸 GUI of the Porject
 
 ### Main Interface
 ![image alt](1.png)
