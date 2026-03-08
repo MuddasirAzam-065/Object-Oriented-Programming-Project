@@ -37,25 +37,9 @@ The project focuses on building a system using **classes and objects** while app
 
 # 🛠 Technologies Used
 
-- Programming Language: **C++ / Java / Python** *(update if needed)*
-- IDE: **VS Code / CodeBlocks**
-- Version Control: **Git & GitHub**
-
----
-
-# 📂 Project Structure
-
-```bash
-Object-Oriented-Programming-Project
-│
-├── src/
-│   ├── classes
-│   ├── functions
-│
-├── main.cpp
-│
-└── README.md
-```
+- Programming Language: **C++ / QTFramework**
+- IDE: **QT Creator**
+- Version Control: **GitHub**
 
 ---
 
@@ -65,33 +49,15 @@ Object-Oriented-Programming-Project
 
 ```bash
 git clone https://github.com/MuddasirAzam-065/Object-Oriented-Programming-Project.git
+Note: You would have to require a qt frame work in order to run and see implementation of code.
 ```
 
-### Open Project Folder
-
-```bash
-cd Object-Oriented-Programming-Project
-```
-
-### Compile Program
-
-Example for **C++**
-
-```bash
-g++ main.cpp -o program
-./program
-```
-
----
-
-# 📸 Program Output / Screenshots
-
-Add screenshots here
-
-Example:
+# 📸 GUI of the Porject
 
 ```
-screenshots/output.png
+### Main Page
+<img width="1364" height="726" alt="1" src="https://github.com/user-attachments/assets/bc7b45a1-3cee-4247-91be-175bc89dd8f7" />
+
 ```
 
 ```
