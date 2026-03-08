@@ -56,7 +56,7 @@ Note: You would have to require a qt frame work in order to run and see implemen
 
 ```
 ### Main Interface[
-<img width="1364" height="726" alt="1" src="https://github.com/user-attachments/assets/26837f18-676d-4e93-b219-70d72dbc24f0" />](https://github.com/MuddasirAzam-065/Object-Oriented-Programming-Project/issues/1#issue-4042080546)
+![image alt](1.png)
 
 
 ```
