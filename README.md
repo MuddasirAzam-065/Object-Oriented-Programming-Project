@@ -55,8 +55,9 @@ Note: You would have to require a qt frame work in order to run and see implemen
 # 📸 GUI of the Porject
 
 ```
-### Main Page
-<img width="1364" height="726" alt="1" src="https://github.com/user-attachments/assets/bc7b45a1-3cee-4247-91be-175bc89dd8f7" />
+### Main Interface
+<img width="1364" height="726" alt="1" src="https://github.com/user-attachments/assets/26837f18-676d-4e93-b219-70d72dbc24f0" />
+
 
 ```
 
