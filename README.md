@@ -1,4 +1,4 @@
-# 🚀 Object-Oriented Programming Project
+# 🚀 Learning Management System Project
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/MuddasirAzam-065/Object-Oriented-Programming-Project)
 ![GitHub stars](https://img.shields.io/github/stars/MuddasirAzam-065/Object-Oriented-Programming-Project?style=social)
