@@ -47,25 +47,25 @@ The project focuses on building a system using **classes and objects** while app
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/MuddasirAzam-065/Object-Oriented-Programming-Project.git
 Note: You would have to require a qt frame work in order to run and see implementation of code.
-```
 
 # 📸 GUI of the Porject
 
-```
-### Main Interface[
-![image alt](https://github.com/MuddasirAzam-065/Object-Oriented-Programming-Project/blob/d46540005df4800f34f7de45d6296bacb7403b69/1.png)
 
+### Main Interface
+![image alt](1.png)
+### Login interface
+![image alt](2.png)
+### Admin's Panel Interface
+![image alt](3.png)
+### Teacher's Panel Interface
+![image alt](6.png)
+### Student's Panel Interface[
+![image alt](7.png)
+### Adding Interface[
+![image alt](5.png)
 
-```
-
-```
-![Program Output](screenshots/output.png)
-```
-
----
 
 # 📚 Learning Outcomes
 
