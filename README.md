@@ -58,10 +58,15 @@ Where as this project runs on your local machine creating a .csv file for each o
 The passwrod of teacher and student, is set after the admin adds them. As it runs on a local machine so at first their is no teacehr or student.
 
 ---
+
 # 🖥️Bugs and Enhancement:
-✔ First of all the program runs on a local machine which limits the data only to a single machine gnerally admin.  
-✔ It can be integrated to a live databsae such as firebase or mongodb so it can be used within all members of college 
-✔ API such as Twilio Verify or Plivo Verify can be used to send otp to reset password.  
+
+✔ First of all the program runs on a local machine which limits the data only to a single machine gnerally admin
+
+✔ It can be integrated to a live databsae such as firebase or mongodb so it can be used within all members of college
+
+✔ API such as Twilio Verify or Plivo Verify can be used to send otp to reset password
+
 ---
 
 # 📸 GUI of the Porject
